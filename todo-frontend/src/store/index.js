@@ -7,9 +7,13 @@ Vue.use(Vuex);
 // znali na kojoj adresi nam je backend server
 export default new Vuex.Store({
   state: {
-    baseUrl: 'http://localhost/todo'
+    baseUrl: 'http://localhost:80/todofullstack/todo-backend'
   },
-  mutations: {},
+  mutations: {},  
   actions: {},
   modules: {}
+
 });
+
+
+  

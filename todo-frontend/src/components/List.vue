@@ -69,6 +69,7 @@ export default {
     async updateUi() {
       const response = await this.$http.get(
         `${this.$store.state.baseUrl}/liste.json`
+        
       );
       this.lists = response.data;
     },
